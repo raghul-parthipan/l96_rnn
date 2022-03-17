@@ -3,8 +3,12 @@ Stochastic Parameterizations: Better Modelling of Temporal Correlations using Pr
 
 ## Parent directory ##
 
-- `requirements.txt` gives the required packages. Everything here is configured to run without needing a GPU. Of course, if you have a GPU things will be quicker.
-- In all notebooks, paths need to be updated based on where data is and where you want things to be saved.
+`requirements.txt` gives the required packages. Everything here is configured to run without needing a GPU. Of course, if you have a GPU things will be quicker. You can install requirements using a conda env as below:
+1. `conda create --prefix ./envs python==3.8.5`
+2. `conda activate ./envs`
+3. `pip install -r requirements.txt`
+
+In all notebooks, paths need to be updated based on where data is and where you want things to be saved.
 
 ## create_l96_data ##
 
