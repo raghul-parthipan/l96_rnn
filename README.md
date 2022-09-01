@@ -24,7 +24,7 @@ Here are all the models, both their training and how they are used to create the
 
 ### RNN ###
 
-`rnn_training.ipynb` is for training the model and `rnn_results.ipynb` is for generating data and calculating hold-out likelihoods.
+`rnn_training.ipynb` is for training the model and `rnn_results.ipynb` is for generating data and calculating hold-out likelihoods. `rnn_diagnostics.ipynb` contains an example of how likelihood is used to diagnose what can be improved in the RNN model.
 
 ### Polynomial ###
 
