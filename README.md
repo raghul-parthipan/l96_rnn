@@ -1,5 +1,6 @@
 # l96_rnn
-Stochastic Parameterizations: Better Modelling of Temporal Correlations using Probabilistic Machine Learning
+Using Probabilistic Machine Learning to Better Model Temporal Patterns in Parameterizations: a case study with the Lorenz 96 model.
+https://arxiv.org/abs/2203.14814
 
 ## Parent directory ##
 
@@ -40,5 +41,5 @@ The importance sampler is trained in `importance_sampler_for_gan_training.ipynb`
 
 If due to OOM issues you've needed to create separate chunks of simulation data, `merge_simulation_datasets.ipynb` is there to merge it.
 
-The notebooks in `analysis_notebook` are used to create the plots shown in the Results of the paper.
+The notebooks in `analysis_notebook` are used to create the plots and resulst shown in the Results of the paper.
 
